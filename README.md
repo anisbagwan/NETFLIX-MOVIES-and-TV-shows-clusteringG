@@ -40,6 +40,9 @@ number of contents. Documentaries and stand up are top genre in terms of number 
 have on platform. Further we found number of movies on Netflix outnumbers TV-shows.
 ![image](https://user-images.githubusercontent.com/84036652/177276496-9aef61ae-72ec-416b-bad1-a3529c283288.png)
 
+![image](https://user-images.githubusercontent.com/84036652/177276858-00f83727-568b-4493-965b-f72c7426de6c.png)
+
+
 
 ## ⚙️ Model Fitting:
 Our next job was to make an unsupervised clustering model. For this, we processed our text by
