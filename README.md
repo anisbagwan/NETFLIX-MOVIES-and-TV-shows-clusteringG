@@ -40,7 +40,6 @@ number of contents. Documentaries and stand up are top genre in terms of number 
 have on platform. Further we found number of movies on Netflix outnumbers TV-shows.
 ![image](https://user-images.githubusercontent.com/84036652/177276496-9aef61ae-72ec-416b-bad1-a3529c283288.png)
 
-![image](https://user-images.githubusercontent.com/84036652/177277048-41fcc7ae-2e4f-40da-b9c8-a575842f7347.png)
 
 
 
