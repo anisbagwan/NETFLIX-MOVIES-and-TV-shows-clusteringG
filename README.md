@@ -18,11 +18,13 @@ serve subscribers better, and above all by letting people consume content in the
 Netflix disrupted the television industry and forced cable companies to change the way they do
 business.
 
-Our main objectives of this project are to do exploratory analysis and find useful insights from dataset,
+## 🎯 Objective:
+Our main objectives of this project is to do exploratory analysis and find useful insights from dataset,
 to understand what type content is available in different countries, also to find out is Netflix has
 increasingly focused on TV rather than movies in recent years and at last to do clustering of similar
 content by matching text-based features from dataset.
 
+## 🛠 Data Pre-processing:
 We have been provided a dataset collected from Flixable which is a third-party Netflix search engine.
 In 2018, they released an interesting report which shows that the number of TV shows on Netflix has
 nearly tripled since 2010. The streaming service’s number of movies has decreased by more than 2,000
