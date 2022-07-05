@@ -31,6 +31,7 @@ nearly tripled since 2010. The streaming service’s number of movies has decrea
 titles since 2010, while its number of TV shows has nearly tripled. It will be interesting to explore what
 all other insights can be obtained from the same data set.
 
+## 🔍 Exploratory Data Analysis:
 We started this project with the intention to obtain some useful insights related to the type of Netflix
 content. For this, we performed exploratory data analysis on our data after cleaning and making it
 easy to analyse. This analysis helped us to understand the trend. We found that most of the content
@@ -38,6 +39,7 @@ on Netflix are of TV-MA and TV-14 rating. USA and India are two countries produc
 number of contents. Documentaries and stand up are top genre in terms of number of contents they
 have on platform. Further we found number of movies on Netflix outnumbers TV-shows.
 
+## ⚙️ Model Fitting:
 Our next job was to make an unsupervised clustering model. For this, we processed our text by
 removing unuseful characters like - stop words, punctuation and did stemming. After getting the
 length for each text feature we rescaled them for generalisation and started applying algorithms. We
@@ -45,3 +47,5 @@ first used K-means clustering. In order to find appropriate cluster number, we u
 finally got the best silhouette score of around 0.35. Next, we applied Hierarchal Agglomerative
 Clustering for which we made dendrogram. We also obtained silhouette score of around 0.32. With
 this we achieved our objectives of the project.
+
+## ⚖️ Model Evaluation:
