@@ -2,6 +2,7 @@
 
 ![Netflix](https://user-images.githubusercontent.com/84036652/176588641-b757f868-fba7-4d03-aed7-8ddad071841e.jpg)
 
+## 📄 Introduction : 
 Netflix, Inc. is an American subscription streaming service and production company. Launched on
 August 29, 1997, it offers a film and television series library through distribution deals as well as its
 own productions, known as Netflix Originals.
