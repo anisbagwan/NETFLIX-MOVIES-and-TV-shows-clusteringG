@@ -32,14 +32,20 @@ titles since 2010, while its number of TV shows has nearly tripled. It will be i
 all other insights can be obtained from the same data set.
 
 ## 🔍 Exploratory Data Analysis:
-We started this project with the intention to obtain some useful insights related to the type of Netflix
-content. For this, we performed exploratory data analysis on our data after cleaning and making it
-easy to analyse. This analysis helped us to understand the trend. We found that most of the content
+  *  We started this project with the intention to obtain some useful insights related to the type of Netflix
+content. 
+  *  For this, we performed exploratory data analysis on our data after cleaning and making it
+easy to analyse.
+  *  This analysis helped us to understand the trend. We found that most of the content
 on Netflix are of TV-MA and TV-14 rating. USA and India are two countries producing the maximum
-number of contents. Documentaries and stand up are top genre in terms of number of contents they
-have on platform. Further we found number of movies on Netflix outnumbers TV-shows.
+number of contents.
+  *  Documentaries and stand up are top genre in terms of number of contents they
+have on platform.
+  *  Further we found number of movies on Netflix outnumbers TV-shows.
+  * Below pie graph is showing the content of netfilx in percentage.
+    
 ![image](https://user-images.githubusercontent.com/84036652/177276496-9aef61ae-72ec-416b-bad1-a3529c283288.png)
-
+  * Clearly number of Movies on Netflix outnumbered the number of TV Shows. Almost 70% content are movies while rest 30% are TV Shows.
 
 
 
