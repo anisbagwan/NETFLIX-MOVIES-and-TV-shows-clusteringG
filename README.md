@@ -1,4 +1,4 @@
-# NETFLIX-MOVIES-and-TV-shows-clustering
+<h1 align="center">NETFLIX-MOVIES-and-TV-shows-clustering </h1>
 
 ![Netflix](https://user-images.githubusercontent.com/84036652/176588641-b757f868-fba7-4d03-aed7-8ddad071841e.jpg)
 
