@@ -25,11 +25,7 @@ increasingly focused on TV rather than movies in recent years and at last to do 
 content by matching text-based features from dataset.
 
 ## 🛠 Data Pre-processing:
-We have been provided a dataset collected from Flixable which is a third-party Netflix search engine.
-In 2018, they released an interesting report which shows that the number of TV shows on Netflix has
-nearly tripled since 2010. The streaming service’s number of movies has decreased by more than 2,000
-titles since 2010, while its number of TV shows has nearly tripled. It will be interesting to explore what
-all other insights can be obtained from the same data set.
+ * 
 
 ## 🔍 Exploratory Data Analysis:
   *  We started this project with the intention to obtain some useful insights related to the type of Netflix
