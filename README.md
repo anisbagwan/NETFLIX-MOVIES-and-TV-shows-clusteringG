@@ -1,6 +1,6 @@
 <h1 align="center">NETFLIX-MOVIES-and-TV-shows-clustering </h1>
 
-![Netflix](https://user-images.githubusercontent.com/84036652/176588641-b757f868-fba7-4d03-aed7-8ddad071841e.jpg)
+![image](https://user-images.githubusercontent.com/84036652/178097284-a1c325b5-98b6-4eab-a154-3de695190be2.png)
 
 ## 📄 Introduction : 
 Netflix, Inc. is an American subscription streaming service and production company. Launched on
@@ -25,7 +25,18 @@ increasingly focused on TV rather than movies in recent years and at last to do 
 content by matching text-based features from dataset.
 
 ## 🛠 Data Pre-processing:
- * 
+ * In first few steps I hovered aroundx dataset like understood the summury of data.
+ * Checked shape of data that have 7787 rows and 12 columns. These columns are the independent features and one of them is a dependent feature.
+ * Then checked the null count of dataset using 'info()' method but fortunately data doesn't have any null values. Also saw the data types of columns.
+ * After that counted the unique elements for each vriable. And then started the pre-processing of data.
+ * In pre-processing of data we checked for null count of data.
+ * We got 5 columns- "director","cast","country","date_added"and "rating" , with null values in it. Dropping whole rows with null values would lead to loss of information. Better approach would be to replace null values with a clear text indicating "No Data".
+ * After that we checked for duplicate values but fortunately the datasrt doesn't have any kind of duplicate values in it.
+ * Then we moved to next step that is Feature Engineering.
+ 
+## 💡 Feature Engineering:
+ * From all the variables we have - "date_added" and "release_year" indicates a date and year respectively. Hence, we can change their values to their appropriate type i.e datetime. Doing this will help us to extract month and year from the "date_added" column for the analysis part.
+ * From this changes we came to know that, Netflix added all its contents in the span of 14 years, from 2009 to 2021.
 
 ## 🔍 Exploratory Data Analysis:
   *  We started this project with the intention to obtain some useful insights related to the type of Netflix
