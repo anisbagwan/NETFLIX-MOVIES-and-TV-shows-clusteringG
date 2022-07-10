@@ -1,4 +1,4 @@
-<h1 align="center">NETFLIX-MOVIES-and-TV-shows-clustering </h1>
+<h1 align="center">NETFLIX-MOVIES-AND-TV-SHOWS-CLUSTERING </h1>
 
 ![image](https://user-images.githubusercontent.com/84036652/178097284-a1c325b5-98b6-4eab-a154-3de695190be2.png)
 
@@ -7,9 +7,7 @@ Netflix, Inc. is an American subscription streaming service and production compa
 August 29, 1997, it offers a film and television series library through distribution deals as well as its
 own productions, known as Netflix Originals.
 Netflix can be accessed via internet browser on computers, or via application software installed on
-smart TVs, set-top boxes connected to televisions, tablet computers, smartphones, digital media
-
-players, Blu-ray Disc players, video game consoles and virtual reality headsets on the list of Netflix-
+smart TVs, set-top boxes connected to televisions, tablet computers, smartphones, digital media players, Blu-ray Disc players, video game consoles and virtual reality headsets on the list of Netflix-
 compatible devices. It is available in 4K resolution.
 
 Netflix has become dominant company in the on-demand media industry, with 167 million paying
@@ -44,10 +42,9 @@ content.
   *  For this, we performed exploratory data analysis on our data after cleaning and making it
 easy to analyse.
   *  This analysis helped us to understand the trend. We found that most of the content
-on Netflix are of TV-MA and TV-14 rating. USA and India are two countries producing the maximum
-number of contents.
-  *  Documentaries and stand up are top genre in terms of number of contents they
-have on platform.
+on Netflix are of TV-MA and TV-14 rating. 
+ * USA and India are two countries producing the maximum number of contents.
+  *  Documentaries and stand up are top genre in terms of number of contents they have on platform.
   *  Further we found number of movies on Netflix outnumbers TV-shows.
   * Below pie graph is showing the content of netfilx in percentage.
     
@@ -58,12 +55,28 @@ have on platform.
 
 
 ## ⚙️ Model Fitting:
-Our next job was to make an unsupervised clustering model. For this, we processed our text by
-removing unuseful characters like - stop words, punctuation and did stemming. After getting the
-length for each text feature we rescaled them for generalisation and started applying algorithms. We
-first used K-means clustering. In order to find appropriate cluster number, we used elbow method and
-finally got the best silhouette score of around 0.35. Next, we applied Hierarchal Agglomerative
-Clustering for which we made dendrogram. We also obtained silhouette score of around 0.32. With
-this we achieved our objectives of the project.
+ * Our next job was to make an unsupervised clustering model. 
+ * We processed text by removing unuseful characters like - stop words, punctuations and did stemming.
+ * After getting the length for each text feature we rescaled them for generalisation and started applying algorithms.
+ * We first used K-means clustering. 
+ * In order to find appropriate cluster number, we used elbow method and finally got the best silhouette score of around 0.35.
+ * Next, we applied Hierarchal Agglomerative Clustering for which we made dendrogram.
+ * We also obtained silhouette score of around 0.32.
 
-## ⚖️ Model Evaluation:
+![image](https://user-images.githubusercontent.com/84036652/178133768-34580ede-a4ca-4bed-9214-272a9231961b.png)
+
+* As we can see from above figure we got best silhouette score for three clusters. These clusters are clearly classifying the datapoints in their classes.
+
+## Conclusion:
+* We started this project with understanding the problem statement and the objective under that statement.
+* First of all we learned about our dataset. We observed its shape and size.
+* Then we looked for null values and duplicate values and removed some null values and duplicate values.
+* After removing uneccecery data we did some feature engineering. We changed the data type of date column so that could interprete years easily.
+* Then we derived some useful insights from dataset. Some of the insights are very important from business perspective. Using these insights we can understand the behaviour of our business.
+* After that we took those columns which contain the text data for cleaning purpose. We removed the stopwords from text which are not that much important.
+Also we did stemming of sentances and removed punctuation marks.
+* Then we took those text variable separately and calculated the lengths of each text so that we can make cluster of these texts.
+* After that we applied K-means clustering algorithm to find the clusters of data. Before that we plot an elbow curve to understand how many best clusters we can take. And after calculating the silhouette score of these optimum clusters we selected the 3 clusters as optimum clusters.
+* Like that we also apllied Heirarchial clustering algorithm and a dendogram for it.
+* From both of the algorithms we came to know that we can divide the data into 3 clusters.
+* And thats how we achieved our goal of this project.
